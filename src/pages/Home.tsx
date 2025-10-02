@@ -1,10 +1,11 @@
+import Auth from "./Auth";
 import LoginPage from "./Login";
 
 
 function Home() {
     return (
         <div>
-            <LoginPage />
+            <Auth />
         </div>
     )
 }

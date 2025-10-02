@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import { TooltipProvider } from "./components/iu/tooltip"
 import { Toaster } from "./components/iu/toaster"
 import { Toaster as Sonner } from "./components/iu/sonner";
+import AuthPage from "./pages/Auth"
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Sonner />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/login" element={<AuthPage />} />
         <Route
           path="/dashboard"
           element={
